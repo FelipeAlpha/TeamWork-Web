@@ -26,19 +26,13 @@ body {
     color: #ff5f03;
     align-items: center;
     justify-content: space-between;
-}
-
-.head-log > h5 {
-    align-items: center;
-    justify-content: space-between;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
     list-style-type: none;
-    align-items: center;
     padding: 16px;
+}
+
+.head-log > h4 {
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left-login {
