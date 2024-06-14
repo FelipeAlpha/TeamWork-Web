@@ -33,6 +33,14 @@ body {
     justify-content: space-between;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
 .left-login {
     display: flex;
     justify-content: center;
