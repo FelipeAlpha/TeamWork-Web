@@ -25,25 +25,28 @@ body {
 .head-log {
     color: wheat;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     list-style-type: none;
+    display: flex;
 }
 
-.head-log > h4 > Status {
-    color: #681f1f;
-}
-
-.head-log > h4 > Contact {
-    color: #cfbb48;
-}
-
-.head-log > h4 > About Us {
-    color: wheat;
-}
-
-.head-log > h4 {
-    align-items: center;
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+header h4 {
+    align-items: center;
+    justify-content: space-around;
 }
 
 .left-login {
